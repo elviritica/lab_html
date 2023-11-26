@@ -1,0 +1,19 @@
+* {
+    border: 1px solid red;
+    display:flex;
+}
+
+nav{
+    display: flex;
+}
+
+.tarjetas{
+    display: flex;
+}
+
+footer{
+    background-color: #212429;
+    color: #ffffff;
+    height: 16px;
+    align-items: flex-end;     
+}
