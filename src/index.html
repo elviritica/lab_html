@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda de Ropa</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?query=monts">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>MODA MUJER</li>
-                <li>MODA HOMBRE</li>
-                <li>NUEVA COLECCIÓN</li>
-                <li>COLECCIONES ESPECIALES</li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Nuevas Colecciones</h1>
-    <div class="tarjetas">    
-        <div class="tarjeta1"></div>
-        <div class="tarjeta2"></div>
-        <div class="tarjeta3"></div>
-        <div class="tarjeta4"></div>
-        <div class="tarjeta5"></div>
-        <div class="tarjeta6"></div>
-    </div>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <footer>
-        <ul>
-            <li>Entrega</li>
-            <li>Devoluciones y cambios</li>
-            <li>+375 (29) 749-18-23</li>
-            <li>shop@omix.com</li>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="icon-menu">
+          <img src="assets/icon-menu-burguer.svg" alt="hamburger" />
+        </div>
+
+        <ul class="links">
+          <li><a href="#">MODA MUJER</a></li>
+          <li><a href="#">MODA HOMBRE</a></li>
+          <li><a href="#">NUEVA COLECCIÓN</a></li>
+          <li><a href="#">COLECCIONES ESPECIALES</a></li>
         </ul>
+        <div class="icon-menu2">
+          <img src="assets/icon-user.svg" alt="icon-user" />
+          <img src="assets/icon-heart.svg" alt="icon-heart" />
+          <img src="assets/icon-shopping-cart.svg" alt="icon-shopping-cart" />
+        </div>
+      </nav>
+    </header>
+    <h1>NUEVAS COLECCIONES</h1>
+    <main> 
+      <div class="tarjetas-container">
+        <div class="tarjeta">
+            <img src="assets/image-3.jpg" alt="vestido">
+            <div class="info">
+                <p class="producto">Vestido</p>
+                <p class="precio">34,99 €</p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <img src="assets/image-6.jpg" alt="camisa-m">
+            <div class="info">
+                <p class="producto">Camisa</p>
+                <p class="precio">44,99 €</p>
+            </div>
+        </div>        
+        <div class="tarjeta">
+            <img src="assets/image-4.jpg" alt="vaqueros">
+            <div class="info">
+                <p class="producto">Vaqueros</p>
+                <p class="precio">79,99 €</p>
+            </div>
+        </div>        
+        <div class="tarjeta">
+            <img src="assets/image-5.jpg" alt="polo">
+            <div class="info">
+                <p class="producto">Polo</p>
+                <p class="precio">44,95 €</p>
+            </div>
+        </div>        
+        <div class="tarjeta">
+            <img src="assets/image-1.jpg" alt="camisa-h">
+            <div class="info">
+                <p class="producto">Camisa</p>
+                <p class="precio">25,00 €</p>
+            </div>
+        </div>        
+        <div class="tarjeta">
+            <img src="assets/image-2.jpg" alt="camiseta">
+            <div class="info">
+                <p class="producto">Camiseta</p>
+                <p class="precio">22,99 €</p>
+            </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+        <div class="item">
+            <div class="img">
+                <img src="assets/icon-truck.svg" alt="entrega">
+            </div>
+            <a href="#">Entrega</a>
+        </div>
+        <div class="item">
+            <a href="#"> Devoluciones y cambios</a>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="assets/icon-phone.svg" alt="telefono">
+            </div>
+            <a href="#">+375 (29) 749-18-23</a>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="assets/icon-mail.svg" alt="email">
+            </div>
+            <a href="mailto:shop@omix.com">shop@omix.com</a>
+        </div>
     </footer>
-</body>
+  </body>
 </html>
